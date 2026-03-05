@@ -279,7 +279,7 @@ PWB:SetScript('OnEvent', function ()
         end
 
         if tonumber(remoteVersion) > PWB.utils.getVersionNumber() and not PWB.updateNotified then
-          PWB:Print(T['New version available! https://github.com/Pizzahawaiii/PizzaWorldBuffs'])
+          PWB:Print(T['New *archived* version available! https://github.com/acid9000/PizzaWorldBuffs'])
           PWB.updateNotified = true
         end
       elseif addonName == PWB.abbrevDmf then
