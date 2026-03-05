@@ -5,9 +5,17 @@ Edit 20260305:
 
 Edit 20260303: Updated frame.lua to fix time-left overrun. despawn times should now correctly display "N/A" if longer than 2 hours (i.e. the head is already despawned).
 
+**THIS IS A REUPLOAD OF JULIETTES PWB FROM GITLAB, I AM NOT THE ORIGINAL OWNER**
+
 # 🍕 PizzaWorldBuffs
 
-Addon that shows tents on the world map, Onyxia/Nefarian head despawn timers and the last known Darkmoon Faire location. All this info is constantly being shared between all addon users so you will e.g. see tents on the map that other people have found and see timers for Ony/Nef head even if you didn't witness the buff drop yourself. See [below](#how-it-works) for more details on how it works.
+## Updated PizzaWorldBuffs to use `.server info`
+This version `2.0.0` (to clarify the difference) is based on the 1.6.7 Version with the change of how the server time is determined. Using `.server info` should keep all clients in the correct sync regardless of their toons location in the world.
+This version ONLY TRUSTS reports from clients with the same server time.
+
+With love from `<Only Once>` guild on Ambershire.
+
+Addon for [TurtleWoW](https://turtle-wow.org) that shows tents on the world map, Onyxia/Nefarian head despawn timers and the last known Darkmoon Faire location. All this info is constantly being shared between all addon users so you will e.g. see tents on the map that other people have found and see timers for Ony/Nef head even if you didn't witness the buff drop yourself. See [below](#how-it-works) for more details on how it works.
 
 <img src="img/frame.png" width="100%">
 <img src="img/tent.png" width="100%">
@@ -154,5 +162,6 @@ You're always more than welcome to ask questions or provide any kind of feedback
 - **Nordanaar**: Pizzahawaii, Pizzamista, Pizzapimp<br />If you see anyone whose name starts with 'Pizza', chances are it's me. 
 
 ❤️ [Shagu](https://github.com/shagu) - Thanks for all the help!
+
 
 
