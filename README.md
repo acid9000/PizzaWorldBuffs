@@ -1,3 +1,8 @@
+Edit 20260305: 
+* Time discrepancies are due to twow devs changing in-game clocks to run twice as fast as IRL clocks. This archive is just a band-aid resolution and may still have discrepancies in how "time left" timers are calculating.
+* Revised .toc for proper archive version and author attribution
+* Revised "update your addon" hyperlinks to now link to this archive.
+
 Edit 20260303: Updated frame.lua to fix time-left overrun. despawn times should now correctly display "N/A" if longer than 2 hours (i.e. the head is already despawned).
 
 # 🍕 PizzaWorldBuffs
@@ -149,4 +154,5 @@ You're always more than welcome to ask questions or provide any kind of feedback
 - **Nordanaar**: Pizzahawaii, Pizzamista, Pizzapimp<br />If you see anyone whose name starts with 'Pizza', chances are it's me. 
 
 ❤️ [Shagu](https://github.com/shagu) - Thanks for all the help!
+
 
