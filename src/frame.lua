@@ -188,7 +188,7 @@ function PWB.frame.updateFrames()
             -- Calculate time remaining
             local diff = despawnMinutes - currentMinutes
             local timeLeftH, timeLeftM = PWB.utils.toTime(diff)
-            if (timeLeftH < 3) and timeLeftM then
+            if (timeLeftH < 2) and timeLeftM then
               local timeLeftStr = PWB.utils.toString(timeLeftH, timeLeftM)
               timeStr = "|cff00ff00" .. timeLeftStr -- Green
             else
